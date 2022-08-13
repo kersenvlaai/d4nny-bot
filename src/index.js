@@ -25,6 +25,8 @@ client.on("ready", () => {
   console.log(`${client.user.username} is online!`);
 });
 
+client.user.setActivity("try /danny", {});
+
 client.on("interactionCreate", (interaction) => {
   if (interaction.isChatInputCommand()) {
     console.log("hello");
