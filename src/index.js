@@ -29,8 +29,10 @@ client.on("interactionCreate", (interaction) => {
   if (interaction.isChatInputCommand()) {
     console.log("hello");
     interaction.reply({
-      content: `<:danny11:976227288439988344> <:danny12:976227439183269999>
-<:danny21:976227480534921297> <:danny22:976227480606240788>`,
+      content: `<:danny11:1008130310220816447> <:danny12:1008130312338948096> <:danny13:1008130313773400146>
+<:danny21:1008130315585335296> <:danny22:1008130316738756638> <:danny23:1008130317816713371>
+<:danny31:1008130319469269072> <:danny32:1008130320773685308> <:danny33:1008130321985843230>
+      `,
     });
   }
 });
