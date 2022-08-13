@@ -27,6 +27,11 @@ client.on("ready", () => {
 
 client.on("interactionCreate", (interaction) => {
   if (interaction.isChatInputCommand()) {
+    console.log("hello");
+    interaction.reply({
+      content: `:danny11: :danny12:
+:danny21: :danny22:`,
+    });
   }
 });
 
