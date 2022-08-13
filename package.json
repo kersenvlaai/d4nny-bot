@@ -1,0 +1,30 @@
+{
+  "name": "d4nny-bot",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon ./src/index.js",
+    "start": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kersenvlaai/d4nny-bot"
+  },
+  "author": "Sonny Luu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kersenvlaai/d4nny-bot/issues"
+  },
+  "homepage": "https://github.com/kersenvlaai/d4nny-bot#readme",
+  "dependencies": {
+    "@discordjs/rest": "^1.0.1",
+    "discord.js": "^14.1.2",
+    "dotenv": "^16.0.1"
+  },
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
