@@ -29,8 +29,8 @@ client.on("interactionCreate", (interaction) => {
   if (interaction.isChatInputCommand()) {
     console.log("hello");
     interaction.reply({
-      content: `:danny11: :danny12:
-:danny21: :danny22:`,
+      content: `<:danny11:976227288439988344> <:danny12:976227439183269999>
+<:danny21:976227480534921297> <:danny22:976227480606240788>`,
     });
   }
 });
